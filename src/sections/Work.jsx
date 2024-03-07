@@ -4,7 +4,7 @@ import Myfirsthomepage from "../assets/Myfirsthomepage.png";
 
 const Work = () => {
   return (
-    <section className={styles.section} id="work">
+    <section className={styles.section} id="Work">
       <h2 className={styles.title}>My Work Evolution</h2>
       <div className={styles.list}>
         <div className={styles.project}>

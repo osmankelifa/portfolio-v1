@@ -11,7 +11,9 @@ const About = () => {
         voluptate veniam veritatis laudantium unde quaerat saepe quis maiores
         debitis reiciendis.
       </h2>
-      <button className={styles.button}>Get in touch</button>
+      <button className={styles.button} id="About">
+        Get in touch
+      </button>
     </section>
   );
 };
