@@ -4,11 +4,11 @@ import Myfirsthomepage from "../assets/Myfirsthomepage.png";
 
 const Work = () => {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="work">
       <h2 className={styles.title}>My Work Evolution</h2>
       <div className={styles.list}>
         <div className={styles.project}>
-        <a href="https://steady-paprenjak-3f5125.netlify.app/">
+          <a href="https://steady-paprenjak-3f5125.netlify.app/">
             <img
               src={Myfirsthomepage}
               alt="My first Homepage"
