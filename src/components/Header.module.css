@@ -1,0 +1,16 @@
+.header {
+  width: 100%;
+  /* position: relative; */
+
+}
+
+.ul {
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  list-style: none;
+  padding: 40px 100px;
+  margin-right: 25px;
+  position: fixed;
+}

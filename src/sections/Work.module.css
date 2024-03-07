@@ -1,0 +1,25 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-image: url("../assets/jeremy-bishop-G9i_plbfDgk-unsplash.webp"); */
+  background-image: url("src/assets/background2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.title {
+  font-size: 2rem;
+  padding: 30px;
+  padding-left: 100px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  max-width: 1000px;
+}

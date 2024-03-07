@@ -1,0 +1,40 @@
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-image: url("../assets/jeremy-bishop-G9i_plbfDgk-unsplash.webp"); */
+  background-image: url("src/assets/background2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-left: 100px;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+}
+
+.button {
+  width: 200px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #dfe7e8;
+  color: rgb(2, 2, 2);
+  margin-top: 20px;
+  margin-left: 35px;
+  border-radius: 20px;
+  
+  border: black;
+  font-weight: 500;
+  transition: 0.4s;
+}
+
+.button:hover {
+  background-color: rgb(236, 231, 231);
+  width: 220px;
+  box-shadow: 8px 8px 4px 4px #3c6975;
+}
