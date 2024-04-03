@@ -3,6 +3,7 @@ import Hero from "./sections/Hero";
 import Work from "./sections/Work";
 import About from "./sections/About";
 import Footer from "./sections/Footer";
+import Contact from "./sections/Contact";
 
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
       <Hero />
       <Work/>
       <About/>
+      <Contact/>
       <Footer/>
+      
     </>
   );
 }

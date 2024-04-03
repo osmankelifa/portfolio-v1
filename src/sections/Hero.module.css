@@ -35,6 +35,6 @@
 
 .button:hover {
   background-color: rgb(236, 231, 231);
-  width: 210px;
-  box-shadow: 8px 8px 4px 4px #3c6975;
+  width: 200px;
+  box-shadow: 4px 4px 4px 4px #323536;
 }

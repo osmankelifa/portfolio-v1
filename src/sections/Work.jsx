@@ -1,50 +1,29 @@
 import React from "react";
 import styles from "./Work.module.css";
-import Myfirsthomepage from "../assets/Myfirsthomepage.png";
+import { works } from "../data";
 
 const Work = () => {
   return (
     <section className={styles.section} id="Work">
       <h2 className={styles.title}>My Work Evolution</h2>
       <div className={styles.list}>
-        <div className={styles.project}>
-          <a href="https://steady-paprenjak-3f5125.netlify.app/">
-            <img
-              src={Myfirsthomepage}
-              alt="My first Homepage"
-              target="_blank"
-              // height="auto"
-              width="100%"
-            />
-          </a>
-        </div>
-        <div className={styles.project}>
+        {works.map((list) => {
+          // const { id, gitHubLink, img, title } = list;
+
           <div className={styles.project}>
-            <a href="https://steady-paprenjak-3f5125.netlify.app/">
+            <a href={list.gitHubLink} target="_blank">
+              <h3>{list.title}</h3>
               <img
-                src={Myfirsthomepage}
+                src={list.img}
                 alt="My first Homepage"
-                target="_blank"
                 // height="auto"
                 width="100%"
               />
             </a>
-          </div>
-        </div>
-        <div className={styles.project}>
-          <div className={styles.project}>
-            <a href="https://steady-paprenjak-3f5125.netlify.app/">
-              <img
-                src={Myfirsthomepage}
-                alt="My first Homepage"
-                target="_blank"
-                // height="auto"
-                width="100%"
-              />
-            </a>
-          </div>
-        </div>
+          </div>;
+        })}
       </div>
+      ;
     </section>
   );
 };

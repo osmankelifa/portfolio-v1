@@ -1,7 +1,6 @@
 .header {
   width: 100%;
   /* position: relative; */
-
 }
 
 .ul {
@@ -13,4 +12,19 @@
   padding: 40px 100px;
   margin-right: 25px;
   position: fixed;
+}
+
+/* Add this CSS to remove the underline from anchor tags */
+.ul a {
+  /* text-decoration: none; */
+  text-decoration: none;
+}
+
+.list {
+  border-bottom: none;
+  transition: 4s;
+}
+
+.list:hover {
+  border-bottom: 1px solid black;
 }
